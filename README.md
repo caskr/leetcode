@@ -10,4 +10,5 @@
 | ZJ_3 | [古生物血缘远近判定](https://leetcode-cn.com/leetbook/read/bytedance-c01/eug83v/) | [java](https://github.com/caskr/leetcode/blob/main/java/ZJ_3.java) | [编辑距离问题](https://www.jianshu.com/p/a617d20162cf)（递归法时间不过，用动态规划） |
 | 85   | [最大矩形](https://leetcode-cn.com/leetbook/read/bytedance-c01/eik5p2/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_85.java) | [单调栈法](https://blog.csdn.net/ailinyingai/article/details/100534563) |
 | 1739 | [放置盒子](https://leetcode-cn.com/leetbook/read/bytedance-c01/eikfoc/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_1739.java) | [数学+贪心](https://blog.csdn.net/chenbb1989/article/details/113133278) 1\3\6\10\15\... n*(n+1)/2 [二分法也很好](https://blog.csdn.net/qq_43765535/article/details/113720980) |
+| 1675 | [数组的最小偏移量](https://leetcode-cn.com/leetbook/read/bytedance-c01/eigcei/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_1675.java) | 奇数元素先*2变大（因为后续可以通过偶数/2变小），与偶数元素入[TreeSet](https://blog.csdn.net/a1439775520/article/details/95373610)，求当前最大距离。再对Set中最大的元素进行处理，若是偶数则/2，求当前最大距离；若是奇数则算法结束。 |
 
