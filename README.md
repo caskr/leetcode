@@ -13,4 +13,5 @@
 | 1675 | [数组的最小偏移量](https://leetcode-cn.com/leetbook/read/bytedance-c01/eigcei/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_1675.java) | 奇数元素先*2变大（因为后续可以通过偶数/2变小），与偶数元素入[TreeSet](https://blog.csdn.net/a1439775520/article/details/95373610)，求当前最大距离。再对Set中最大的元素进行处理，若是偶数则/2，求当前最大距离；若是奇数则算法结束。 |
 | 753  | [破解保险箱](https://leetcode-cn.com/leetbook/read/bytedance-c01/eiz49e/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_753.java) | [贪心算法](https://leetcode-cn.com/problems/cracking-the-safe/solution/yi-bu-yi-bu-tui-dao-chu-0ms-jie-fa-tan-xin-gou-zao/)+[dfs](https://leetcode-cn.com/problems/cracking-the-safe/solution/po-jie-bao-xian-xiang-by-leetcode-solution/) 找欧拉图路径（没太懂） |
 | 22   | [括号生成](https://leetcode-cn.com/leetbook/read/bytedance-c01/eisgxg/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_22.java) | dfs+回溯 即尝试加左括号和加右括号至不满足条件                |
+| 638  | [大礼包](https://leetcode-cn.com/leetbook/read/bytedance-c01/ei1ujj/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_638.java) | 贪心+dfs 遍历 对于可用的大礼包用或不用的情况 求最小金额      |
 
