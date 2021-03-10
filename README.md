@@ -14,4 +14,5 @@
 | 753  | [破解保险箱](https://leetcode-cn.com/leetbook/read/bytedance-c01/eiz49e/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_753.java) | [贪心算法](https://leetcode-cn.com/problems/cracking-the-safe/solution/yi-bu-yi-bu-tui-dao-chu-0ms-jie-fa-tan-xin-gou-zao/)+[dfs](https://leetcode-cn.com/problems/cracking-the-safe/solution/po-jie-bao-xian-xiang-by-leetcode-solution/) 找欧拉图路径（没太懂） |
 | 22   | [括号生成](https://leetcode-cn.com/leetbook/read/bytedance-c01/eisgxg/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_22.java) | dfs+回溯 即尝试加左括号和加右括号至不满足条件                |
 | 638  | [大礼包](https://leetcode-cn.com/leetbook/read/bytedance-c01/ei1ujj/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_638.java) | 贪心+dfs 遍历 对于可用的大礼包用或不用的情况 求最小金额      |
+| NC78 | [反转链表](https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca?tpId=190&tqId=35203&rp=1&ru=%2Factivity%2Foj&qru=%2Fta%2Fjob-code-high-rd%2Fquestion-ranking&tab=answerKey) | [java](https://github.com/caskr/leetcode/blob/main/java/NC_78.java) | 三个指针，pre,cur,next                                       |
 
