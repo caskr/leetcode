@@ -19,7 +19,7 @@ public class Solution {
             return Math.min(arr1[l1],arr2[l2]);
         int mid1 = (l1+r1)/2;
         int mid2 = (l2+r2)/2;
-        int offset = ((r1 - l1 + 1) & 1) ^ 1;//(r1-l1)%2;
+        int offset = (r1-l1)%2;
         if(arr1[mid1] < arr2[mid2]){
             return BS(arr1,arr2,mid1+offset,r1,l2,mid2);
         }else if(arr1[mid1] > arr2[mid2]){
