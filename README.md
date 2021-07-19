@@ -44,4 +44,14 @@
 | NC38  | [螺旋矩阵](https://www.nowcoder.com/practice/7edf70f2d29c4b599693dc3aaeea1d31?tpId=190&tqId=35349&rp=1&ru=%2Factivity%2Foj&qru=%2Fta%2Fjob-code-high-rd%2Fquestion-ranking&tab=answerKey) | [java](https://github.com/caskr/leetcode/blob/main/java/NC_38.java) | 没啥特别的，一层层来                                         |
 | NC65  | [斐波那契数列](https://www.nowcoder.com/practice/c6c7742f5ba7442aada113136ddea0c3?tpId=190&tags=&title=&diffculty=0&judgeStatus=0&rp=1&tab=answerKey) | [java](https://github.com/caskr/leetcode/blob/main/java/NC_65.java) | 递归or不递归                                                 |
 | NC13  | [二叉树的最大深度](https://www.nowcoder.com/practice/8a2b2bf6c19b4f23a9bdb9b233eefa73?tpId=188&tqId=38323&rp=1&ru=%2Factivity%2Foj&qru=%2Fta%2Fjob-code-high-week%2Fquestion-ranking&tab=answerKey) | [java](https://github.com/caskr/leetcode/blob/main/java/NC_13.java) | 递归                                                         |
+| 1838  | [最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_1838.java) | 滑动窗口（从前向后依次滑动 初始操作步数加上差距 若大于递增步数 右移左界限 减去差距步数  画图即清晰）+//暴力解法 |
+|       |                                                              |                                                              |                                                              |
+|       |                                                              |                                                              |                                                              |
+|       |                                                              |                                                              |                                                              |
+|       |                                                              |                                                              |                                                              |
+|       |                                                              |                                                              |                                                              |
+|       |                                                              |                                                              |                                                              |
+|       |                                                              |                                                              |                                                              |
+|       |                                                              |                                                              |                                                              |
+|       |                                                              |                                                              |                                                              |
 
