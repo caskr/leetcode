@@ -47,7 +47,7 @@
 | 1838  | [最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_1838.java) | 滑动窗口（从前向后依次滑动 初始操作步数加上差距 若大于递增步数 右移左界限 减去差距步数  画图即清晰）+//暴力解法 |
 | 1877  | [数组中最大数对和的最小值](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_1877.java) | 证明最小情况是首尾相加时，所以排序，遍历即可                 |
 | 138   | [复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [java](https://github.com/caskr/leetcode/blob/main/java/LC_138.java) | 哈希，第一种第一次赋值val和next 第二种第一次赋值val（代码更简洁） |
-|       |                                                              |                                                              |                                                              |
+| NC93  | [设计LRU缓存结构](https://www.nowcoder.com/practice/e3769a5f49894d49b871c09cadd13a61?tpId=117&tags=&title=&difficulty=0&judgeStatus=0&rp=1) | [java](https://github.com/caskr/leetcode/blob/main/java/NC_93.java) | 利用哈希表和双向链表 可以实现get setO(1)的复杂度             |
 |       |                                                              |                                                              |                                                              |
 |       |                                                              |                                                              |                                                              |
 |       |                                                              |                                                              |                                                              |
