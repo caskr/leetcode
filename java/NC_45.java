@@ -33,54 +33,96 @@ public class Solution {
         return res;
     }
     public void firstOrder (TreeNode root) {
-        if(root == null)
-            return;
         Stack<TreeNode> s = new Stack<>();
-        s.push(root);
-        while(!s.isEmpty()) {
-            TreeNode cur = s.pop();
-            first.add(cur.val);
-            if(cur.right!=null)
-                s.push(cur.right);
-            if(cur.left!=null) {
-                s.push(cur.left);
-            }
-        }
-    }
-    public void midOrder (TreeNode root) {
-        if(root == null)
-            return;
-        Stack<TreeNode> s = new Stack<>();
-        s.push(root);
-        while(!s.isEmpty()) {
-            TreeNode cur = s.peek();
-            if(cur.left!=null) {
-                s.push(cur.left);
-                cur.left = null;
-            } else if(cur.right!=null) {
-                s.pop();
-                mid.add(cur.val);
-                s.push(cur.right);
+        TreeNode cur = root;
+        while (cur != null || !s.isEmpty()) {
+            if(cur != null) {
+                first.add(cur.val);
+                s.push(cur);
+                cur = cur.left;
             } else {
-                s.pop();
-                mid.add(cur.val);
+                cur = s.pop();
+                cur = cur.right;
             }
         }
     }
+//     public void firstOrder (TreeNode root) {
+//         if(root == null)
+//             return;
+//         Stack<TreeNode> s = new Stack<>();
+//         s.push(root);
+//         while(!s.isEmpty()) {
+//             TreeNode cur = s.pop();
+//             first.add(cur.val);
+//             if(cur.right!=null)
+//                 s.push(cur.right);
+//             if(cur.left!=null) {
+//                 s.push(cur.left);
+//             }
+//         }
+//     }
+    public void midOrder (TreeNode root) {
+        Stack <TreeNode> s = new Stack<>();
+        TreeNode cur = root;
+        while (cur != null || !s.isEmpty()) {
+            if (cur != null) {
+                s.push(cur);
+                cur = cur.left;
+            } else {
+                cur = s.pop();
+                mid.add(cur.val);
+                cur = cur.right;
+            }
+        }
+    }
+//     public void midOrder (TreeNode root) {
+//         if (root == null)
+//             return;
+//         Stack<TreeNode> s = new Stack<>();
+//         s.push(root);
+//         while (!s.isEmpty()) {
+//             TreeNode cur = s.peek();
+//             if (cur.left!=null) {
+//                 s.push(cur.left);
+//                 cur.left = null;
+//             } else if(cur.right != null) {
+//                 s.pop();
+//                 mid.add(cur.val);
+//                 s.push(cur.right);
+//             } else {
+//                 s.pop();
+//                 mid.add(cur.val);
+//             }
+//         }
+//     }
     public void lastOrder (TreeNode root) {
         Stack<TreeNode> s = new Stack<>();
-        s.push(root);
-        while(!s.isEmpty()) {
-            TreeNode cur = s.pop();
-            if(cur.left!=null) {
-                s.push(cur.left);
+        TreeNode cur = root;
+        while (cur != null || !s.isEmpty()) {
+            if(cur != null) {
+                last.add(0,cur.val);
+                s.push(cur);
+                cur = cur.right;
+            } else {
+                cur = s.pop();
+                cur = cur.left;
             }
-            if(cur.right!=null) {
-                s.push(cur.right);
-            }
-            last.add(0,cur.val);
         }
     }
+//     public void lastOrder (TreeNode root) {
+//         Stack<TreeNode> s = new Stack<>();
+//         s.push(root);
+//         while(!s.isEmpty()) {
+//             TreeNode cur = s.pop();
+//             if(cur.left!=null) {
+//                 s.push(cur.left);
+//             }
+//             if(cur.right!=null) {
+//                 s.push(cur.right);
+//             }
+//             last.add(0,cur.val);
+//         }
+//     }
 //     public void firstOrder(TreeNode root) {
 //         if(root == null)    
 //             return;
