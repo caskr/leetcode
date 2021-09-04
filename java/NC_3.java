@@ -41,5 +41,17 @@ public class Solution {
             fast = fast.next;
         }
         return slow;
+		//哈希
+//         HashSet<ListNode> hash = new HashSet<>();
+//         ListNode cur = pHead;
+//         while (cur != null) {
+//             if (!hash.contains(cur)) {
+//                 hash.add(cur);
+//             } else {
+//                 return cur;
+//             }
+//             cur = cur.next;
+//         }
+//         return null;
     }
 }
